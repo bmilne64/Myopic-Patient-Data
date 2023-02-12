@@ -1,6 +1,6 @@
 ## Myopic Patient Data
 
-Classify the Myopia Patients using Unsupervised Machine Learning Models
+Classify Myopia Patient Data using Unsupervised Machine Learning Models
 
 ## Objectives
 
@@ -12,24 +12,30 @@ Classify the Myopia Patients using Unsupervised Machine Learning Models
 
 * Remove the "MYOPIC" column from the dataset
 
-![](images/df.png)
+![](images/df2.png)
 
 * Standardize the dataset so that columns that contain larger values do not influence the outcome more than columns with smaller values
 
 ### Step 2 - Apply Dimensionality Reduction
 
 * Perform dimensionality reduction with PCA
+
+![](images/pca.png)
+
 * Further reduce the dataset dimensions with t-SNE
 * Create a scatter plot of the t-SNE output
 
-![](images/df.png)
+![](images/tsne.png)
 
 ### Step 3 - Perform a Cluster Analysis with K-means
 
 * Create a K-means model
+
+![](images/kmean.png)
+
 * Create an elbow plot to identify the best number of clusters
 
-![](images/df.png)
+![](images/elbow.png)
 
 ### Step 4 - Make a Recommendation
 
@@ -38,4 +44,3 @@ Classify the Myopia Patients using Unsupervised Machine Learning Models
 ---------------------------------------------------
 
 <b>Contact:</b> bronwynmilne64@gmail.com
-# unsupervised-machine-learning-challenge
