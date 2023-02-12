@@ -37,13 +37,13 @@ Classify Myopia Patient Data using Unsupervised Machine Learning Models
 
 ### Step 3 - Perform a Cluster Analysis with K-means
 
-* Create a K-means model
-
-![](images/kmean.png)
-
 * Create an elbow plot to identify the best number of clusters
 
 ![](images/elbow.png)
+
+* Create a K-means model
+
+![](images/kmeans.png)
 
 ### Step 4 - Make a Recommendation
 
